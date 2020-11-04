@@ -1,14 +1,13 @@
 package com.shape;
 
 public interface Drawable {
-
-
+    void draw();
 }
 
 
 /*
 
-Segment:
+Regtangle:
 int h = 5, w = 5;
 for (int i=0; i<h; i++)
 {

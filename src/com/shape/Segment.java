@@ -1,9 +1,9 @@
 package com.shape;
 
-public class Segment {
+public class Segment implements Drawable {
     public String name = "Segment";
 
     public void draw(){
-        System.out.println("Draw a " + this.name);
+        System.out.println(" * * * * * * * * ");
     }
 }

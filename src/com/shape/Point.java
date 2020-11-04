@@ -1,10 +1,10 @@
 package com.shape;
 
-public class Point {
+public class Point implements Drawable {
     public String name = "Point";
 
     public void draw(){
-        System.out.println("Draw a " + this.name);
+        System.out.println(" * ");
     }
 
 
