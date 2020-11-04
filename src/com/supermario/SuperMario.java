@@ -6,27 +6,13 @@ public class SuperMario {
     public int agility = 10; // 敏捷
     public int intelligence = 10;  //智力
 
-    public void fightDuck(Duck duck){
+    public void fightMonster(Monster monster){
 
-        if( this.strength >= duck.strength && this.agility >= duck.agility
-                && this.intelligence >= duck.intelligence)
+        if( this.strength >= monster.strength && this.agility >= monster.agility
+                && this.intelligence >= monster.intelligence)
             System.out.println("Super Mario wins!");
-        else System.out.println("Duck wins!");
+        else System.out.println(monster.name + " wins!");
 
     }
 
-    public void fightTortoise(Tortoise tortoise){
-        if( this.strength >= tortoise.strength && this.agility >= tortoise.agility
-                && this.intelligence >= tortoise.intelligence)
-            System.out.println("Super Mario wins!");
-        else System.out.println("Tortoise wins!");
-    }
-
-    public void fightDragon(Dragon dragon){
-        if( this.strength >= dragon.strength && this.agility >= dragon.agility
-                && this.intelligence >= dragon.intelligence)
-            System.out.println("Super Mario wins!");
-        else System.out.println("Dragon wins!");
-
-    }
 }

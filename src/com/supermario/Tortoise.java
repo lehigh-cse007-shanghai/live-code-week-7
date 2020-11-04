@@ -1,8 +1,11 @@
 package com.supermario;
 
-public class Tortoise {
-    public String name = "Tortoise";
-    public int strength = 5; // 力量
-    public int agility = 1; // 敏捷
-    public int intelligence = 20;  //智力
+public class Tortoise extends Monster {
+
+    public Tortoise(){
+        this.name = "Tortoise";
+        this.intelligence = 20;
+        this.strength = 3;
+        this.agility = 0;
+    }
 }

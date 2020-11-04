@@ -1,9 +1,19 @@
 package com.supermario;
 
-public class Dragon {
+public class Dragon extends Monster {
 
-    public String name = "Dragon";
-    public int strength = 12; // 力量
-    public int agility = 13; // 敏捷
-    public int intelligence = 12;  //智力
+    public Dragon(int i, int s, int a){
+        this.name = "Dragon";
+        this.intelligence = i;
+        this.strength = s;
+        this.agility = a;
+    }
+
+    public Dragon(){
+        this.name = "Dragon";
+        this.intelligence = 12;
+        this.strength = 13;
+        this.agility = 11;
+    }
+
 }
